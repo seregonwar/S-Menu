@@ -1,0 +1,2278 @@
+{
+    "clone_pv": {
+        "clone_plate": false,
+        "plate": "",
+        "preview_vehicle": false,
+        "spawn_clone": false,
+        "spawn_inside": false,
+        "spawn_maxed": false
+    },
+    "context_menu": {
+        "allowed_entity_types": 15,
+        "bounding_box_color": 4278255360,
+        "bounding_box_enabled": true,
+        "enabled": true,
+        "selected_option_color": 1510014720
+    },
+    "debug": {
+        "logs": {
+            "metric_logs": false,
+            "packet_logs": false,
+            "script_event": {
+                "filter_player": true,
+                "logs": false,
+                "player_id": -1
+            },
+            "script_hook_logs": false
+        }
+    },
+    "esp": {
+        "armor": true,
+        "box": true,
+        "box_render_distance": [
+            0.0,
+            150.0
+        ],
+        "change_esp_color_from_dist": false,
+        "default_color": 4285713522,
+        "distance": true,
+        "distance_threshold": [
+            100.0,
+            200.0
+        ],
+        "enabled": true,
+        "enemy_color": 4281479904,
+        "enemy_near_color": 4283794943,
+        "friend_color": 4293244509,
+        "global_render_distance": [
+            0.0,
+            600.0
+        ],
+        "god": true,
+        "health": true,
+        "hide_self": true,
+        "name": true,
+        "scale_armor_from_dist": false,
+        "scale_health_from_dist": false,
+        "tracer": true,
+        "tracer_draw_position": [
+            0.5,
+            1.0
+        ],
+        "tracer_render_distance": [
+            200.0,
+            600.0
+        ]
+    },
+    "notifications": {
+        "gta_thread_kill": {
+            "log": false,
+            "notify": false
+        },
+        "gta_thread_start": {
+            "log": false,
+            "notify": false
+        },
+        "invalid_sync": {
+            "log": false,
+            "notify": false
+        },
+        "mismatch_sync_type": {
+            "log": false,
+            "notify": false
+        },
+        "network_player_mgr_init": {
+            "log": false,
+            "notify": false
+        },
+        "network_player_mgr_shutdown": {
+            "log": false,
+            "notify": false
+        },
+        "out_of_allowed_range_sync_type": {
+            "log": false,
+            "notify": false
+        },
+        "player_join": {
+            "above_map": true,
+            "log": false,
+            "notify": false
+        },
+        "player_leave": {
+            "log": false,
+            "notify": false
+        },
+        "send_net_info_to_lobby": {
+            "log": false,
+            "notify": false
+        },
+        "transaction_rate_limit": {
+            "log": false,
+            "notify": false
+        }
+    },
+    "player": {
+        "character_slot": 0,
+        "spectating": false
+    },
+    "player_db": {
+        "update_player_online_states": false
+    },
+    "protections": {
+        "admin_check": true,
+        "desync_kick": true,
+        "lessen_breakups": true,
+        "receive_pickup": true,
+        "rid_join": true,
+        "script_events": {
+            "bounty": true,
+            "ceo_money": true,
+            "clear_wanted_level": true,
+            "fake_deposit": true,
+            "force_mission": true,
+            "force_teleport": true,
+            "give_collectible": true,
+            "gta_banner": true,
+            "mc_teleport": true,
+            "personal_vehicle_destroyed": true,
+            "remote_off_radar": true,
+            "rotate_cam": true,
+            "send_sms": true,
+            "send_to_cutscene": true,
+            "send_to_location": true,
+            "sound_spam": true,
+            "spectate": true,
+            "start_activity": true,
+            "teleport_to_warehouse": true,
+            "vehicle_kick": true
+        }
+    },
+    "reactions": {
+        "bounty": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "breakup_others": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block": true,
+            "block_joins": false,
+            "karma": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "ceo_kick": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "ceo_money": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "clear_ped_tasks": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "clear_wanted_level": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "crash": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "destroy_personal_vehicle": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "end_session_kick": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "fake_deposit": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "force_mission": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "force_teleport": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "gamer_instruction_kick": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "give_collectible": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "gta_banner": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "kick_from_interior": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "kick_vote": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "mc_teleport": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "modder_detection": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "network_bail": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "null_function_kick": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "personal_vehicle_destroyed": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "remote_off_radar": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "remote_ragdoll": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "remote_wanted_level": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "remote_wanted_level_others": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block": true,
+            "block_joins": false,
+            "karma": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "report": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "report_cash_spawn": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "request_control_event": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "rotate_cam": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "send_to_cutscene": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "send_to_location": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "sound_spam": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "spectate_notification": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "start_activity": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "start_script": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "teleport_to_warehouse": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "transaction_error": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "trigger_business_raid": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "tse_freeze": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "tse_sender_mismatch": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "turn_into_beast": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        },
+        "vehicle_kick": {
+            "add_to_player_db": false,
+            "announce_in_chat": false,
+            "block_joins": false,
+            "kick": false,
+            "log": true,
+            "notify": true
+        }
+    },
+    "self": {
+        "auto_tp": false,
+        "beast_jump": false,
+        "clean_player": false,
+        "custom_weapon_stop": true,
+        "fast_respawn": true,
+        "force_wanted_level": false,
+        "free_cam": false,
+        "god_mode": true,
+        "healthregen": false,
+        "healthregenrate": 1.0,
+        "hud": {
+            "color_override": false,
+            "color_override_initialized": true,
+            "force_show_hud": false,
+            "force_show_hud_element": false,
+            "hide_ammo": false,
+            "hide_radar": false,
+            "hud_color_overrides": [
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 240,
+                    "g": 240,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 155,
+                    "g": 155,
+                    "r": 155
+                },
+                {
+                    "a": 255,
+                    "b": 205,
+                    "g": 205,
+                    "r": 205
+                },
+                {
+                    "a": 255,
+                    "b": 77,
+                    "g": 77,
+                    "r": 77
+                },
+                {
+                    "a": 255,
+                    "b": 50,
+                    "g": 50,
+                    "r": 224
+                },
+                {
+                    "a": 255,
+                    "b": 153,
+                    "g": 153,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 25,
+                    "g": 25,
+                    "r": 112
+                },
+                {
+                    "a": 255,
+                    "b": 229,
+                    "g": 182,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 242,
+                    "g": 219,
+                    "r": 174
+                },
+                {
+                    "a": 255,
+                    "b": 115,
+                    "g": 92,
+                    "r": 47
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 200,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 169,
+                    "g": 235,
+                    "r": 254
+                },
+                {
+                    "a": 255,
+                    "b": 41,
+                    "g": 107,
+                    "r": 126
+                },
+                {
+                    "a": 255,
+                    "b": 85,
+                    "g": 133,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 170,
+                    "g": 194,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 42,
+                    "g": 66,
+                    "r": 127
+                },
+                {
+                    "a": 255,
+                    "b": 114,
+                    "g": 204,
+                    "r": 114
+                },
+                {
+                    "a": 255,
+                    "b": 185,
+                    "g": 230,
+                    "r": 185
+                },
+                {
+                    "a": 255,
+                    "b": 57,
+                    "g": 102,
+                    "r": 57
+                },
+                {
+                    "a": 255,
+                    "b": 226,
+                    "g": 102,
+                    "r": 132
+                },
+                {
+                    "a": 255,
+                    "b": 239,
+                    "g": 179,
+                    "r": 192
+                },
+                {
+                    "a": 255,
+                    "b": 111,
+                    "g": 57,
+                    "r": 67
+                },
+                {
+                    "a": 255,
+                    "b": 148,
+                    "g": 54,
+                    "r": 203
+                },
+                {
+                    "a": 255,
+                    "b": 71,
+                    "g": 154,
+                    "r": 53
+                },
+                {
+                    "a": 255,
+                    "b": 229,
+                    "g": 182,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 39,
+                    "g": 36,
+                    "r": 235
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 80,
+                    "r": 194
+                },
+                {
+                    "a": 255,
+                    "b": 175,
+                    "g": 110,
+                    "r": 156
+                },
+                {
+                    "a": 255,
+                    "b": 196,
+                    "g": 123,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 123,
+                    "g": 159,
+                    "r": 247
+                },
+                {
+                    "a": 255,
+                    "b": 132,
+                    "g": 144,
+                    "r": 178
+                },
+                {
+                    "a": 255,
+                    "b": 167,
+                    "g": 206,
+                    "r": 141
+                },
+                {
+                    "a": 255,
+                    "b": 175,
+                    "g": 169,
+                    "r": 113
+                },
+                {
+                    "a": 255,
+                    "b": 231,
+                    "g": 209,
+                    "r": 211
+                },
+                {
+                    "a": 255,
+                    "b": 153,
+                    "g": 127,
+                    "r": 144
+                },
+                {
+                    "a": 255,
+                    "b": 191,
+                    "g": 196,
+                    "r": 106
+                },
+                {
+                    "a": 255,
+                    "b": 153,
+                    "g": 196,
+                    "r": 214
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 142,
+                    "r": 234
+                },
+                {
+                    "a": 255,
+                    "b": 234,
+                    "g": 203,
+                    "r": 152
+                },
+                {
+                    "a": 255,
+                    "b": 135,
+                    "g": 98,
+                    "r": 178
+                },
+                {
+                    "a": 255,
+                    "b": 122,
+                    "g": 142,
+                    "r": 144
+                },
+                {
+                    "a": 255,
+                    "b": 94,
+                    "g": 117,
+                    "r": 166
+                },
+                {
+                    "a": 255,
+                    "b": 168,
+                    "g": 168,
+                    "r": 175
+                },
+                {
+                    "a": 255,
+                    "b": 155,
+                    "g": 142,
+                    "r": 232
+                },
+                {
+                    "a": 255,
+                    "b": 91,
+                    "g": 214,
+                    "r": 187
+                },
+                {
+                    "a": 255,
+                    "b": 86,
+                    "g": 123,
+                    "r": 12
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 196,
+                    "r": 123
+                },
+                {
+                    "a": 255,
+                    "b": 230,
+                    "g": 60,
+                    "r": 171
+                },
+                {
+                    "a": 255,
+                    "b": 13,
+                    "g": 169,
+                    "r": 206
+                },
+                {
+                    "a": 255,
+                    "b": 173,
+                    "g": 99,
+                    "r": 71
+                },
+                {
+                    "a": 255,
+                    "b": 185,
+                    "g": 166,
+                    "r": 42
+                },
+                {
+                    "a": 255,
+                    "b": 125,
+                    "g": 157,
+                    "r": 186
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 225,
+                    "r": 201
+                },
+                {
+                    "a": 255,
+                    "b": 150,
+                    "g": 240,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 161,
+                    "g": 140,
+                    "r": 237
+                },
+                {
+                    "a": 255,
+                    "b": 138,
+                    "g": 138,
+                    "r": 249
+                },
+                {
+                    "a": 255,
+                    "b": 166,
+                    "g": 239,
+                    "r": 252
+                },
+                {
+                    "a": 255,
+                    "b": 240,
+                    "g": 240,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 166,
+                    "g": 201,
+                    "r": 159
+                },
+                {
+                    "a": 255,
+                    "b": 140,
+                    "g": 140,
+                    "r": 140
+                },
+                {
+                    "a": 255,
+                    "b": 140,
+                    "g": 140,
+                    "r": 140
+                },
+                {
+                    "a": 255,
+                    "b": 40,
+                    "g": 40,
+                    "r": 40
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 160,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 160,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 160,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 140,
+                    "g": 140,
+                    "r": 140
+                },
+                {
+                    "a": 255,
+                    "b": 60,
+                    "g": 60,
+                    "r": 60
+                },
+                {
+                    "a": 255,
+                    "b": 30,
+                    "g": 30,
+                    "r": 30
+                },
+                {
+                    "a": 255,
+                    "b": 140,
+                    "g": 140,
+                    "r": 140
+                },
+                {
+                    "a": 255,
+                    "b": 75,
+                    "g": 75,
+                    "r": 75
+                },
+                {
+                    "a": 255,
+                    "b": 50,
+                    "g": 50,
+                    "r": 50
+                },
+                {
+                    "a": 255,
+                    "b": 95,
+                    "g": 95,
+                    "r": 95
+                },
+                {
+                    "a": 255,
+                    "b": 100,
+                    "g": 100,
+                    "r": 100
+                },
+                {
+                    "a": 255,
+                    "b": 39,
+                    "g": 39,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 89,
+                    "g": 55,
+                    "r": 77
+                },
+                {
+                    "a": 255,
+                    "b": 99,
+                    "g": 62,
+                    "r": 124
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 80,
+                    "r": 120
+                },
+                {
+                    "a": 255,
+                    "b": 66,
+                    "g": 72,
+                    "r": 87
+                },
+                {
+                    "a": 255,
+                    "b": 83,
+                    "g": 103,
+                    "r": 74
+                },
+                {
+                    "a": 255,
+                    "b": 88,
+                    "g": 85,
+                    "r": 60
+                },
+                {
+                    "a": 255,
+                    "b": 64,
+                    "g": 105,
+                    "r": 105
+                },
+                {
+                    "a": 255,
+                    "b": 76,
+                    "g": 63,
+                    "r": 72
+                },
+                {
+                    "a": 255,
+                    "b": 95,
+                    "g": 98,
+                    "r": 53
+                },
+                {
+                    "a": 255,
+                    "b": 76,
+                    "g": 98,
+                    "r": 107
+                },
+                {
+                    "a": 255,
+                    "b": 40,
+                    "g": 71,
+                    "r": 117
+                },
+                {
+                    "a": 255,
+                    "b": 117,
+                    "g": 101,
+                    "r": 76
+                },
+                {
+                    "a": 255,
+                    "b": 47,
+                    "g": 35,
+                    "r": 65
+                },
+                {
+                    "a": 255,
+                    "b": 61,
+                    "g": 71,
+                    "r": 72
+                },
+                {
+                    "a": 255,
+                    "b": 47,
+                    "g": 58,
+                    "r": 85
+                },
+                {
+                    "a": 255,
+                    "b": 84,
+                    "g": 84,
+                    "r": 87
+                },
+                {
+                    "a": 255,
+                    "b": 77,
+                    "g": 71,
+                    "r": 116
+                },
+                {
+                    "a": 255,
+                    "b": 45,
+                    "g": 107,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 43,
+                    "g": 61,
+                    "r": 6
+                },
+                {
+                    "a": 255,
+                    "b": 127,
+                    "g": 98,
+                    "r": 61
+                },
+                {
+                    "a": 255,
+                    "b": 115,
+                    "g": 30,
+                    "r": 85
+                },
+                {
+                    "a": 255,
+                    "b": 6,
+                    "g": 84,
+                    "r": 103
+                },
+                {
+                    "a": 255,
+                    "b": 86,
+                    "g": 49,
+                    "r": 35
+                },
+                {
+                    "a": 255,
+                    "b": 92,
+                    "g": 83,
+                    "r": 21
+                },
+                {
+                    "a": 255,
+                    "b": 62,
+                    "g": 98,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 127,
+                    "g": 112,
+                    "r": 100
+                },
+                {
+                    "a": 255,
+                    "b": 75,
+                    "g": 120,
+                    "r": 120
+                },
+                {
+                    "a": 255,
+                    "b": 93,
+                    "g": 76,
+                    "r": 152
+                },
+                {
+                    "a": 255,
+                    "b": 69,
+                    "g": 69,
+                    "r": 124
+                },
+                {
+                    "a": 255,
+                    "b": 50,
+                    "g": 43,
+                    "r": 10
+                },
+                {
+                    "a": 255,
+                    "b": 10,
+                    "g": 95,
+                    "r": 95
+                },
+                {
+                    "a": 255,
+                    "b": 97,
+                    "g": 130,
+                    "r": 180
+                },
+                {
+                    "a": 255,
+                    "b": 161,
+                    "g": 153,
+                    "r": 150
+                },
+                {
+                    "a": 255,
+                    "b": 99,
+                    "g": 181,
+                    "r": 214
+                },
+                {
+                    "a": 255,
+                    "b": 190,
+                    "g": 221,
+                    "r": 166
+                },
+                {
+                    "a": 255,
+                    "b": 153,
+                    "g": 100,
+                    "r": 29
+                },
+                {
+                    "a": 255,
+                    "b": 15,
+                    "g": 116,
+                    "r": 214
+                },
+                {
+                    "a": 255,
+                    "b": 142,
+                    "g": 125,
+                    "r": 135
+                },
+                {
+                    "a": 255,
+                    "b": 185,
+                    "g": 119,
+                    "r": 229
+                },
+                {
+                    "a": 255,
+                    "b": 166,
+                    "g": 239,
+                    "r": 252
+                },
+                {
+                    "a": 255,
+                    "b": 185,
+                    "g": 110,
+                    "r": 45
+                },
+                {
+                    "a": 186,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 229,
+                    "g": 182,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 80,
+                    "r": 194
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 200,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 114,
+                    "g": 204,
+                    "r": 114
+                },
+                {
+                    "a": 255,
+                    "b": 114,
+                    "g": 204,
+                    "r": 114
+                },
+                {
+                    "a": 255,
+                    "b": 92,
+                    "g": 55,
+                    "r": 22
+                },
+                {
+                    "a": 255,
+                    "b": 154,
+                    "g": 154,
+                    "r": 154
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 80,
+                    "r": 194
+                },
+                {
+                    "a": 255,
+                    "b": 201,
+                    "g": 115,
+                    "r": 252
+                },
+                {
+                    "a": 255,
+                    "b": 49,
+                    "g": 177,
+                    "r": 252
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 204,
+                    "g": 247,
+                    "r": 109
+                },
+                {
+                    "a": 255,
+                    "b": 34,
+                    "g": 101,
+                    "r": 241
+                },
+                {
+                    "a": 255,
+                    "b": 97,
+                    "g": 189,
+                    "r": 214
+                },
+                {
+                    "a": 255,
+                    "b": 25,
+                    "g": 25,
+                    "r": 112
+                },
+                {
+                    "a": 255,
+                    "b": 115,
+                    "g": 92,
+                    "r": 47
+                },
+                {
+                    "a": 255,
+                    "b": 229,
+                    "g": 182,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 28,
+                    "g": 153,
+                    "r": 234
+                },
+                {
+                    "a": 255,
+                    "b": 123,
+                    "g": 55,
+                    "r": 11
+                },
+                {
+                    "a": 255,
+                    "b": 62,
+                    "g": 200,
+                    "r": 146
+                },
+                {
+                    "a": 255,
+                    "b": 28,
+                    "g": 153,
+                    "r": 234
+                },
+                {
+                    "a": 255,
+                    "b": 148,
+                    "g": 89,
+                    "r": 66
+                },
+                {
+                    "a": 186,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 114,
+                    "g": 204,
+                    "r": 114
+                },
+                {
+                    "a": 255,
+                    "b": 242,
+                    "g": 76,
+                    "r": 164
+                },
+                {
+                    "a": 255,
+                    "b": 212,
+                    "g": 180,
+                    "r": 101
+                },
+                {
+                    "a": 255,
+                    "b": 171,
+                    "g": 237,
+                    "r": 171
+                },
+                {
+                    "a": 255,
+                    "b": 87,
+                    "g": 163,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 240,
+                    "g": 240,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 30,
+                    "g": 239,
+                    "r": 235
+                },
+                {
+                    "a": 255,
+                    "b": 14,
+                    "g": 149,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 161,
+                    "g": 60,
+                    "r": 246
+                },
+                {
+                    "a": 255,
+                    "b": 249,
+                    "g": 166,
+                    "r": 210
+                },
+                {
+                    "a": 255,
+                    "b": 121,
+                    "g": 38,
+                    "r": 82
+                },
+                {
+                    "a": 77,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 116,
+                    "g": 103,
+                    "r": 72
+                },
+                {
+                    "a": 255,
+                    "b": 85,
+                    "g": 118,
+                    "r": 85
+                },
+                {
+                    "a": 255,
+                    "b": 43,
+                    "g": 81,
+                    "r": 127
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 200,
+                    "r": 240
+                },
+                {
+                    "a": 215,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 127,
+                    "b": 100,
+                    "g": 100,
+                    "r": 100
+                },
+                {
+                    "a": 255,
+                    "b": 185,
+                    "g": 110,
+                    "r": 45
+                },
+                {
+                    "a": 191,
+                    "b": 240,
+                    "g": 240,
+                    "r": 240
+                },
+                {
+                    "a": 186,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 50,
+                    "g": 50,
+                    "r": 224
+                },
+                {
+                    "a": 215,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 133,
+                    "g": 71,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 37,
+                    "g": 118,
+                    "r": 33
+                },
+                {
+                    "a": 255,
+                    "b": 40,
+                    "g": 102,
+                    "r": 37
+                },
+                {
+                    "a": 255,
+                    "b": 28,
+                    "g": 153,
+                    "r": 234
+                },
+                {
+                    "a": 255,
+                    "b": 8,
+                    "g": 140,
+                    "r": 225
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 40,
+                    "r": 20
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 48
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 255,
+                    "r": 48
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 80,
+                    "r": 176
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 127
+                },
+                {
+                    "a": 255,
+                    "b": 224,
+                    "g": 166,
+                    "r": 53
+                },
+                {
+                    "a": 255,
+                    "b": 157,
+                    "g": 79,
+                    "r": 162
+                },
+                {
+                    "a": 255,
+                    "b": 141,
+                    "g": 192,
+                    "r": 104
+                },
+                {
+                    "a": 255,
+                    "b": 153,
+                    "g": 100,
+                    "r": 29
+                },
+                {
+                    "a": 255,
+                    "b": 28,
+                    "g": 153,
+                    "r": 234
+                },
+                {
+                    "a": 255,
+                    "b": 1,
+                    "g": 160,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 57,
+                    "g": 34,
+                    "r": 59
+                },
+                {
+                    "a": 255,
+                    "b": 53,
+                    "g": 68,
+                    "r": 41
+                },
+                {
+                    "a": 255,
+                    "b": 10,
+                    "g": 58,
+                    "r": 82
+                },
+                {
+                    "a": 186,
+                    "b": 40,
+                    "g": 102,
+                    "r": 37
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 200,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 34,
+                    "g": 70,
+                    "r": 80
+                },
+                {
+                    "a": 255,
+                    "b": 85,
+                    "g": 133,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 170,
+                    "g": 194,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 85,
+                    "g": 133,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 80,
+                    "g": 200,
+                    "r": 240
+                },
+                {
+                    "a": 255,
+                    "b": 41,
+                    "g": 107,
+                    "r": 126
+                },
+                {
+                    "a": 255,
+                    "b": 123,
+                    "g": 159,
+                    "r": 247
+                },
+                {
+                    "a": 255,
+                    "b": 187,
+                    "g": 134,
+                    "r": 226
+                },
+                {
+                    "a": 255,
+                    "b": 151,
+                    "g": 238,
+                    "r": 239
+                },
+                {
+                    "a": 255,
+                    "b": 175,
+                    "g": 169,
+                    "r": 113
+                },
+                {
+                    "a": 255,
+                    "b": 193,
+                    "g": 140,
+                    "r": 160
+                },
+                {
+                    "a": 255,
+                    "b": 167,
+                    "g": 206,
+                    "r": 141
+                },
+                {
+                    "a": 255,
+                    "b": 234,
+                    "g": 214,
+                    "r": 181
+                },
+                {
+                    "a": 255,
+                    "b": 132,
+                    "g": 144,
+                    "r": 178
+                },
+                {
+                    "a": 255,
+                    "b": 114,
+                    "g": 132,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 117,
+                    "g": 85,
+                    "r": 216
+                },
+                {
+                    "a": 255,
+                    "b": 152,
+                    "g": 100,
+                    "r": 30
+                },
+                {
+                    "a": 255,
+                    "b": 117,
+                    "g": 181,
+                    "r": 43
+                },
+                {
+                    "a": 255,
+                    "b": 79,
+                    "g": 141,
+                    "r": 233
+                },
+                {
+                    "a": 255,
+                    "b": 215,
+                    "g": 210,
+                    "r": 137
+                },
+                {
+                    "a": 255,
+                    "b": 141,
+                    "g": 125,
+                    "r": 134
+                },
+                {
+                    "a": 255,
+                    "b": 33,
+                    "g": 34,
+                    "r": 109
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 255,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 0,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 0,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 234,
+                    "g": 136,
+                    "r": 38
+                },
+                {
+                    "a": 255,
+                    "b": 50,
+                    "g": 50,
+                    "r": 224
+                },
+                {
+                    "a": 255,
+                    "b": 54,
+                    "g": 178,
+                    "r": 154
+                },
+                {
+                    "a": 255,
+                    "b": 45,
+                    "g": 107,
+                    "r": 93
+                },
+                {
+                    "a": 255,
+                    "b": 13,
+                    "g": 169,
+                    "r": 206
+                },
+                {
+                    "a": 255,
+                    "b": 6,
+                    "g": 84,
+                    "r": 103
+                },
+                {
+                    "a": 255,
+                    "b": 151,
+                    "g": 151,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 113,
+                    "g": 119,
+                    "r": 5
+                },
+                {
+                    "a": 255,
+                    "b": 0,
+                    "g": 0,
+                    "r": 151
+                },
+                {
+                    "a": 255,
+                    "b": 40,
+                    "g": 40,
+                    "r": 0
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                },
+                {
+                    "a": 255,
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                }
+            ],
+            "hud_components_states": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "selected_hud_component": 1
+        },
+        "invisibility": true,
+        "ipls": {
+            "select": 0
+        },
+        "local_visibility": true,
+        "mobile_radio": false,
+        "never_wanted": true,
+        "no_collision": false,
+        "no_ragdoll": true,
+        "no_water_collision": true,
+        "noclip": false,
+        "off_radar": true,
+        "part_water": false,
+        "proof_bullet": false,
+        "proof_collision": false,
+        "proof_drown": false,
+        "proof_explosion": false,
+        "proof_fire": false,
+        "proof_mask": 256,
+        "proof_melee": false,
+        "proof_steam": false,
+        "proof_water": false,
+        "ptfx_effects": {
+            "show": false,
+            "size": 0.10000000149011612
+        },
+        "super_jump": true,
+        "super_run": false,
+        "superman": false,
+        "unlimited_oxygen": true,
+        "wanted_level": 0
+    },
+    "session": {
+        "anonymous_bounty": true,
+        "block_ceo_money": false,
+        "block_ceo_raids": false,
+        "block_jobs": false,
+        "block_muggers": false,
+        "chat_command_default_access_level": "admin",
+        "chat_commands": false,
+        "chat_force_clean": true,
+        "custom_time": {
+            "hour": 11,
+            "minute": 48,
+            "second": 0
+        },
+        "damage_karma": false,
+        "decloak_players": false,
+        "disable_peds": false,
+        "disable_traffic": false,
+        "explosion_karma": false,
+        "force_script_host": true,
+        "force_session_host": true,
+        "force_thunder": false,
+        "is_team": false,
+        "join_in_sctv_slots": false,
+        "kick_chat_spammers": true,
+        "kick_host_when_forcing_host": true,
+        "local_weather": 0,
+        "log_chat_messages": true,
+        "log_text_messages": true,
+        "override_time": true,
+        "override_weather": false,
+        "player_magnet_count": 32,
+        "player_magnet_enabled": false,
+        "randomize_ceo_colors": false,
+        "send_to_apartment_idx": 100,
+        "send_to_warehouse_idx": 1,
+        "show_cheating_message": false
+    },
+    "session_browser": {
+        "language_filter": 3,
+        "language_filter_enabled": true,
+        "player_count_filter_enabled": true,
+        "player_count_filter_maximum": 21,
+        "player_count_filter_minimum": 0,
+        "pool_filter": 0,
+        "pool_filter_enabled": false,
+        "region_filter": 0,
+        "region_filter_enabled": true,
+        "replace_game_matchmaking": false,
+        "sort_direction": 0,
+        "sort_method": 0
+    },
+    "settings": {
+        "dev_dlc": false,
+        "hotkeys": {
+            "beastjump": 0,
+            "bringvehicle": 0,
+            "cmd_excecutor": 85,
+            "editing_menu_toggle": false,
+            "fast_quit": 0,
+            "fill_ammo": 0,
+            "fill_inventory": 0,
+            "freecam": 0,
+            "heal": 0,
+            "invis": 0,
+            "invisveh": 0,
+            "localinvisveh": 0,
+            "menu_toggle": 45,
+            "noclip": 0,
+            "open_vehicle_controller": 0,
+            "repairpv": 0,
+            "skip_cutscene": 0,
+            "superjump": 0,
+            "superrun": 0,
+            "teleport_objective": 0,
+            "teleport_waypoint": 0
+        }
+    },
+    "spawn_vehicle": {
+        "plate": "",
+        "preview_vehicle": false,
+        "spawn_inside": true,
+        "spawn_maxed": true
+    },
+    "spoofing": {
+        "crew_tag": "dioc",
+        "hide_from_player_list": true,
+        "rockstar_crew": true,
+        "session_language": 3,
+        "session_player_count": 25,
+        "session_region_type": 0,
+        "spoof_cheater": false,
+        "spoof_crew_data": false,
+        "spoof_hide_god": true,
+        "spoof_hide_spectate": true,
+        "spoof_session_language": true,
+        "spoof_session_player_count": false,
+        "spoof_session_region_type": false,
+        "square_crew_tag": false,
+        "voice_chat_audio": true
+    },
+    "stat_editor": {
+        "packed_stat": {
+            "bool_read": false,
+            "bool_text": "",
+            "bool_value": "",
+            "int_read": false,
+            "int_text": "",
+            "int_value": "",
+            "radio_button_index": 0
+        },
+        "stat": {
+            "bool_read": false,
+            "bool_text": "",
+            "bool_value": "",
+            "date_read": false,
+            "date_text": "",
+            "date_value": "",
+            "float_read": false,
+            "float_text": "",
+            "float_value": "",
+            "increment_loop_write": false,
+            "increment_text": "",
+            "increment_value": "",
+            "int_read": false,
+            "int_text": "",
+            "int_value": "",
+            "label_text": "",
+            "label_value": "",
+            "radio_button_index": 7,
+            "string_read": false,
+            "string_text": "",
+            "string_value": "",
+            "user_id_read": false,
+            "user_id_text": "",
+            "user_id_value": ""
+        }
+    },
+    "tunables": {
+        "disable_phone": true,
+        "no_idle_kick": true
+    },
+    "ugc": {
+        "infinite_model_memory": false
+    },
+    "vehicle": {
+        "auto_drive_destination": "stopped",
+        "auto_drive_speed": 150.0,
+        "auto_drive_style": "law_abiding",
+        "auto_turn_signals": true,
+        "block_homing": true,
+        "boost_behavior": "default",
+        "change_engine_state_immediately": false,
+        "disable_engine_auto_start": false,
+        "drive_on_water": true,
+        "fly": {
+            "dont_stop": false,
+            "enabled": false,
+            "no_collision": true,
+            "speed": 150.0,
+            "stop_on_exit": false
+        },
+        "god_mode": true,
+        "horn_boost": false,
+        "instant_brake": false,
+        "keep_on_ground": false,
+        "keep_vehicle_repaired": true,
+        "localped_visibility": true,
+        "localveh_visibility": false,
+        "no_collision": false,
+        "no_water_collision": false,
+        "proof_bullet": false,
+        "proof_collision": false,
+        "proof_explosion": false,
+        "proof_fire": false,
+        "proof_mask": 256,
+        "proof_melee": false,
+        "proof_steam": false,
+        "proof_water": false,
+        "rainbow_paint": {
+            "neon": false,
+            "primary": false,
+            "secondary": false,
+            "smoke": false,
+            "speed": 0,
+            "type": "off"
+        },
+        "seatbelt": false,
+        "speed_unit": "kmph",
+        "speedo_meter": {
+            "enabled": true,
+            "left_side": false,
+            "show_current_gear": true,
+            "x": 0.8999999761581421,
+            "y": 0.7200000286102295
+        },
+        "turn_signals": true,
+        "unlimited_weapons": true,
+        "vehicle_jump": false,
+        "vehinvisibility": false
+    },
+    "weapons": {
+        "aimbot": {
+            "distance": 350.0,
+            "enable": true,
+            "fov": 223.0,
+            "selected_bone": 31086,
+            "smoothing": true,
+            "smoothing_speed": 2.0
+        },
+        "ammo_special": {
+            "explosion_tag": -1,
+            "toggle": false,
+            "type": 0
+        },
+        "custom_weapon": "none",
+        "force_crosshairs": true,
+        "gravity_gun": {
+            "launch_on_release": false
+        },
+        "increase_damage": false,
+        "increased_c4_limit": true,
+        "increased_damage": 7.499995231628418,
+        "increased_flare_limit": true,
+        "infinite_ammo": true,
+        "infinite_mag": true,
+        "infinite_range": true,
+        "interior_weapon": true,
+        "no_recoil": true,
+        "no_spread": true,
+        "rapid_fire": true,
+        "triggerbot": false,
+        "vehicle_gun_model": "tampa"
+    },
+    "window": {
+        "color": 3357612055,
+        "gui_scale": 1.0,
+        "ingame_overlay": {
+            "opened": true,
+            "show_fps": true,
+            "show_game_versions": true,
+            "show_players": true,
+            "show_replay_interface": true,
+            "show_time": true,
+            "show_with_menu_opened": false
+        },
+        "switched_view": true,
+        "vehicle_control": {
+            "max_summon_range": 200.0,
+            "operation_animation": true,
+            "render_distance_on_veh": false
+        }
+    },
+    "world": {
+        "blackhole": {
+            "alpha": 150,
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "include_peds": false,
+            "include_vehicles": false
+        },
+        "custom_time": {
+            "hour": 0,
+            "local_weather": 0,
+            "minute": 0,
+            "second": 0
+        },
+        "model_swapper": {
+            "models": []
+        },
+        "nearby": {
+            "combative": false,
+            "high_alert": false,
+            "ignore": false,
+            "ped_rain": false,
+            "ped_rush": false,
+            "veh_rain": false
+        },
+        "orbital_drone": {
+            "detect_player": true,
+            "nav_ovverride_fast": 5.8520002365112305,
+            "nav_ovverride_slow": 0.25
+        },
+        "spawn_ped": {
+            "preview_ped": false,
+            "spawn_as_attacker": false,
+            "spawn_invincible": false,
+            "spawn_invisible": false
+        },
+        "water": {
+            "part_water": true
+        }
+    }
+}
